@@ -1,0 +1,141 @@
+/* ! CSS RESET */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* # GENERICS */
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    display: inline;
+    line-height: 70px;
+    vertical-align: middle;
+    height: 70px;
+    font-weight: 900;
+}
+button {
+    cursor: pointer;
+}
+table {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+th, td {
+    line-height: 38px;
+    text-align: left;
+}
+th {
+     font-size: 18px;
+}
+ul {
+    list-style: none inside;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+span {
+    display: inline-block;
+    vertical-align: middle;
+}
+/* # UTILITY */
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+}
+/* # PRIMO HEADER LOGO */
+.box-header-todolist {
+    height: 70px;
+    background-color: white;
+    padding-left: 30px;
+}
+#logo {
+    height: 50px;
+    width: auto;
+    vertical-align: middle;
+}
+.box-style {
+    margin-top: 30px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: white;
+}
+/* # SERVICES */
+.main-box {
+    border-radius: 0px 0px 5px 5px;
+    margin-top: 1px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+.box-padding {
+    padding: 10px 30px;
+    vertical-align: middle;
+}
+/* # SECONDO HEADER PULSANTI */
+.button-header {
+    border-radius: 5px;
+    padding: 5px 8px;
+    box-shadow: none;
+    border: 1px solid;
+}
+.button-header.button-header-azzurro {
+    color: white;
+    background-color: #1e90ff;
+    border-color: #1e90ff;
+}
+.button-header.button-header-grigio {
+    color: #808080;
+    border-color: currentColor;
+    background-color: white;
+}
+/* # BOX MAIN */
+.box-padding-main {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+/* # LISTE INDENTATE NELLE TABELLE */
+.marker-style {
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 10px;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    line-height: 18px;
+    vertical-align: middle;
+}
+.marker-style.marker-green {
+    color: green;
+}
+.marker-style.marker-red {
+    color: red;
+}
+/* # PULSANTINI COLORATI DELLE LISTE */
+.button-list {
+    border-radius: 12px;
+    padding: 5px 8px;
+    box-shadow: none;
+    border: none;
+    font-size: 10px;
+    color: white;
+    vertical-align: middle;
+}
+.button-list-blu {
+    background-color: #45abea;
+}
+.button-list-lilla {
+    background-color: #9c72e4;
+}
+.button-list-verde {
+    background-color: #64c0a9;
+}
+.button-list-arancio {
+    background-color: #f29e33;
+}
+.button-list-rosa {
+    background-color: #d863a1;
+}
+.button-list-lime {
+    background-color: #b0c926;
+}

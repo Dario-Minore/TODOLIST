@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Todolist">
+    <meta name="description" content="Todolist">
+    <meta name="author" content="Booleaner">
+    <title>Todolist</title>
+    <link href="CSS/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <!-- # PRIMO HEADER CON LOGO-->
+    <header class="box-header-todolist">
+        <img id="logo" src="Logo.png" alt="Todo list">
+        <h1>Todolist</h1>
+    </header>
+    <!-- # SECONDO HEADER CON PULSANTI ALL'INTERNO DEL CONTEINER-->
+    <header class="container box-style box-padding">
+        <button type="button" class="button-header button-header-azzurro">Add Task</button>
+        <button type="button" class="button-header button-header-grigio">Add section</button>
+    </header>
+    <!-- # MAIN ALL'INERNO DEL CONTAINER-->
+    <main class="container box-style main-box box-padding box-padding-main">
+        <!-- # TRE LISTE INDENTATE IN TRE TABELLE-->
+            <table>
+                <thead>
+                    <tr>
+                        <th>&blacktriangledown; New Task</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li><span class="marker-style marker-green">&check;</span> <span>Quarterly Newsletter</span> <button class="button-list button-list-blu">Editorial</button></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>&blacktriangledown; Today</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li><span class="marker-style marker-green">&check;</span> <span>Recruiting blog post</span> <button class="button-list button-list-blu">Editorial</button></li>
+                                <li><span class="marker-style marker-green">&check;</span> <span>Mobile app launch</span> <button class="button-list button-list-lilla">Q1-goals</button></li>
+                                <li><span class="marker-style marker-red">&cross;</span> <span>Interview John H.</span> <button class="button-list button-list-verde">Recruiting</button></li>
+                                <li><span class="marker-style marker-green">&check;</span> <span>Summit update to mobile storefronts</span> <button class="button-list button-list-arancio">Mobile</button></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>&blacktriangledown; Upcoming</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li><span class="marker-style marker-red">&cross;</span> <span>Schedule meeting with Alex</span> <button class="button-list button-list-verde">Recruiting</button></li>
+                                <li><span class="marker-style marker-green">&check;</span> <span>Homepage refresh</span> <button class="button-list button-list-rosa">Website</button></li>
+                                <li><span class="marker-style marker-red">&cross;</span> <span>Onboard new sales Team members</span> <button class="button-list button-list-lime">Sales</button></li>
+                                <li><span class="marker-style marker-green">&check;</span> <span>Review editorial character</span> <button class="button-list button-list-arancio">Editorial</button></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </main>
+</body>
+</html>
